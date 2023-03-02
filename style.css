@@ -1,0 +1,28 @@
+		body {
+			background-color: #f7f7f7;
+		}
+		.container {
+			margin-top: 30px;
+			background-color: #fff;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			padding: 30px;
+			border-radius: 5px;
+		}
+		.todo-item {
+			padding: 10px;
+			margin: 10px 0;
+			border-radius: 5px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			background-color: #fff;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		.todo-item.checked {
+			background-color: #eee;
+			text-decoration: line-through;
+			color: #aaa;
+		}
+		.todo-item button {
+			margin-left: 10px;
+		}
