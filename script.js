@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		}
 	});
 
-	// delete todo
+	// delete todo 
 	document.addEventListener('click', function(event) {
 		if (event.target.classList.contains('todo-delete')) {
 			let index = event.target.getAttribute('data-index');
