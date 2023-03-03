@@ -1,4 +1,4 @@
-		document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
 	// initialize todos array
 	let todos = [];
 
@@ -42,7 +42,7 @@
 				html += ' checked';
 			}
 			html += '>';
-			html += '<span class="todo-text">' + todo.text + '</span>';
+			html += '<span style="color: white;" class="todo-text">' + todo.text + '</span>';
 			html += '<button class="btn btn-danger todo-delete" data-index="' + index + '">Delete</button>';
 			html += '</div>';
 		});
